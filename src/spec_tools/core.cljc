@@ -443,7 +443,7 @@
                      (let [conformed (s/conform* this x)
                            [explain? val] (if (s/invalid? conformed)
                                             [(s/invalid? (conform this x)) x]
-                                            [true (s/unform spec conformed)])]
+                                            [true x])]
                        (if explain?
                          (s/explain* (s/specize* spec) path via in val)
                          [{:path path
