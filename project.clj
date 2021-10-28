@@ -1,4 +1,4 @@
-(defproject nubank/spec-tools "0.10.6-SNAPSHOT"
+(defproject nubank/spec-tools "0.10.6"
   :description "Clojure(Script) tools for clojure.spec"
   :url "https://github.com/metosin/spec-tools"
   :license {:name "Eclipse Public License", :url "https://www.eclipse.org/legal/epl-2.0/"}
