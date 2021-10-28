@@ -1,3 +1,5 @@
+# Changelog
+
 # 0.10.5 (2021-01-22)
 
 * Support validating values transformed via encode/decode functions. [#241](https://github.com/metosin/spec-tools/issues/241). PR [#248](https://github.com/metosin/spec-tools/pull/248) by [Wanderson Ferreira].
